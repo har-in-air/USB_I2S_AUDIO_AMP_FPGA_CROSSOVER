@@ -6,7 +6,7 @@
 * Isochronous with endpoint feedback (3bytes, 10.14 format) to synchronize sampling frequency Fs
 * Supports 44.1kHz and 48kHz 24-bit audio streams
 * Self-powered USB device with VBUS sensing enabled. 
-* USB audio bridge outputs I2S Philips 24/32 data frame to FPGA 2-way audio crossover filter
+* USB audio bridge outputs I2S Philips 24/32 data frame to [FPGA 2-way audio crossover filter](https://github.com/har-in-air/FPGA_STEREO_CROSSOVER)
   which generates low pass and high pass outputs for each channel (L, R)
 * I2C interface to two stereo TAS5753MD I2S power amplifiers for configuration
 * SPI interface to FPGA to configure the audio crossover IIR filter coefficients

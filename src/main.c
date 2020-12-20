@@ -42,12 +42,12 @@ int main(void){
    	  }
      switch (audio_status.frequency) {
        case 44100:
-         BSP_LED_Off(LED_GREEN);
+         BSP_LED_On(LED_GREEN);
          BSP_LED_Off(LED_BLUE);
          break;
        case 48000:
-         BSP_LED_On(LED_GREEN);
-         BSP_LED_Off(LED_BLUE);
+         BSP_LED_Off(LED_GREEN);
+         BSP_LED_On(LED_BLUE);
          break;
        default:
          BSP_LED_Off(LED_GREEN);
