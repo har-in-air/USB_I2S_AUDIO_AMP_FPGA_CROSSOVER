@@ -52,6 +52,7 @@ phase 1 (captures MOSI data on falling edge of SPI clock). Similarly the STM32F4
 <img src="docs/aplay_output.png" />
 
 ### Output from running 'cat /proc/asound/DAC/stream0' on Ubuntu terminal while a song is playing.
+Refer [here](https://github.com/har-in-air/STM32F411_USB_AUDIO_DAC) for configuring PulseAudio, in this case to force resampling to 48kHz 24bit audio.
 
 <img src="docs/proc_stream0.png" />
 
