@@ -36,7 +36,7 @@ A laptop 19.5V 4.7A adapter powers
 the stereo amplifiers. A DC-DC converter supplies 5V to the STM32F407 and Altera FPGA boards. 
 I desoldered the fuse between  USB VBUS and the 5V net on the STM32F407 board. 
 
-Pin PA9 is used for [VBUS sensing with a couple of resistors.](https://community.st.com/s/article/FAQ-Management-of-VBUS-sensing-for-USB-device-design).
+Pin PA9 is used for [VBUS sensing with a couple of resistors.](https://community.st.com/s/article/FAQ-Management-of-VBUS-sensing-for-USB-device-design)
 
 <img src="docs/vbus_sense.png" />
 

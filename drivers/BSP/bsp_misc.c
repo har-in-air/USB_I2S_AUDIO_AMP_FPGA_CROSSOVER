@@ -65,21 +65,21 @@ void BSP_OnboardLED_Toggle(void) {
 	}
 
 void BSP_LED_On(Led_TypeDef Led) {
-  if (Led <= 3)  {
+  if (Led < 3)  {
      HAL_GPIO_WritePin(LED_GPIO_PORT, GPIO_PIN[Led], GPIO_PIN_SET);
   }
 }
 
 
 void BSP_LED_Off(Led_TypeDef Led){
-  if (Led <= 3)  {
+  if (Led < 3)  {
     HAL_GPIO_WritePin(LED_GPIO_PORT, GPIO_PIN[Led], GPIO_PIN_RESET);
   }
 }
 
 
 void BSP_LED_Toggle(Led_TypeDef Led){
-  if (Led <= 3)  {
+  if (Led < 3)  {
      HAL_GPIO_TogglePin(LED_GPIO_PORT, GPIO_PIN[Led]);
   }
 }
